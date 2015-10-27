@@ -1,0 +1,57 @@
+div[class^="dices-"] span {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background: url("../img/sprite-dice.png") no-repeat;
+	margin-bottom: 10px;
+}
+
+.dices {
+	cursor: pointer;
+}
+
+div[class^="dices-"] .dice-1 { background-position: left top; }
+div[class^="dices-"] .dice-2 { background-position: 50% top; }
+div[class^="dices-"] .dice-3 { background-position: right top; }
+div[class^="dices-"] .dice-4 { background-position: left bottom; }
+div[class^="dices-"] .dice-5 { background-position: 50% bottom; }
+div[class^="dices-"] .dice-6 { background-position: right bottom; }
+
+.font50 {
+	font-size: 50px;
+}
+
+.passwordInput {
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.passwordInput input {
+	font-weight: normal;
+}
+
+.wikipedia {
+	font-size: 11px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.explanation {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+img.load {
+	margin-right: 20px;
+
+}
+
+.btns {
+	margin-top: 15px;
+}
+
+.btn-right {
+	float: right;
+	text-align: right;
+}
